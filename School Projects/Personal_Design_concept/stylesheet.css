@@ -1,0 +1,183 @@
+*{
+	margin: 0px;padding: 0px;
+}
+@font-face{
+	font-family:custom_font_1;
+	src:url("HelveticaNeue-Light.otf");	
+}
+body{
+	background-image: url('ES.png');
+	height: 1500px;
+
+
+}
+#banner{
+	width: 100%;
+	height:200px;
+	background-color:#e74c3c;
+	overflow: hidden;
+}
+#banner img{
+	width:auto;
+	height: 100%;
+}
+nav{
+	font-family: custom_font_1;	
+	float: left;
+	position: fixed;
+	width: 10.5%;
+	height: 100%;
+	background-color: rgba(10,10,10,0.9);
+}
+
+nav ul li{
+	margin:0px 0px 10px;
+	text-align: center;
+	height:3em;
+	line-height:45px;
+}
+a{
+	text-decoration: none;
+}
+nav ul li:hover{
+	background-color:rgba(55,55,55,1);
+}
+nav ol{
+	position:absolute;
+	bottom: 20px;
+	left: 10px;
+	
+
+}
+nav ol li{
+	width: 40%;
+	margin: 5px;
+	display: inline-block;
+		
+}
+nav ol li:hover{
+	background-color: white;
+}
+nav ol li img{
+	width:100%;
+	height: 100%;
+}
+nav ol li img:hover{
+	opacity: 1;
+	width:100%;
+	height: 100%;
+}
+#wrapper{
+	color:#ecf0f1;
+	font-family:custom_font_1;
+	font-size: 1.2em;
+	position: relative;
+	width: 70%;
+	height: 1000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+#wrapper p,h2{
+	padding: 10px;
+}
+#card1{
+	overflow: hidden;
+	width: 100%;
+	height: 30%;
+
+}
+#card1 img{
+	max-width:100%;
+	height: auto;
+}
+#card2{
+	position: absolute;	
+	width: 49%;
+	left: 0px;
+
+	height: 30%;
+	margin: 20px 0px 0px 0px;
+	background-color:#e74c3c;	
+	display: inline-block;
+}
+#card3{
+	position: absolute;
+	right: 0px;	
+	width: 49%;
+	overflow: hidden;
+	height: 30%;
+	margin: 20px 0px 0px 0px;	
+	
+	background-color:#e74c3c;		
+}
+#card4{
+	position: absolute;
+	right: 0px;
+	bottom: 60px;
+	width: 49%;
+
+	height: 30%;
+	margin: 30px 0px 0px 0px;	
+
+	background-color:#e74c3c;
+}
+#card4 p,h2{
+	width: 80%;
+}
+#card4 ol{
+	position: absolute;
+	right:0px;
+	top: 0px;
+	width: 15%;
+	height: 100%;
+	list-style: none;
+
+}
+#card4 ol li{
+		background-color: white;
+		margin: 10px auto;
+		height: 20.5%;
+		width: 80%;
+		overflow: hidden;
+}
+#card4 img{
+	width:auto;
+	height: 100%;
+}
+
+#card5{
+	position: absolute;
+	left: 0px;
+	bottom: 60px;
+	width: 49%;
+	overflow: hidden;
+	height: 30%;
+	margin: 20px 0px 0px 0px;	
+
+	background-color:#e74c3c;
+}
+#card5 img{
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+}
+video{
+	margin: 0px auto;
+	height: auto;
+	max-width: 100%;
+
+}
+#card6{
+	position: absolute;
+	left: 0px;
+	bottom: 60px;
+	width: 49%;
+	overflow: hidden;
+	height: 30%;
+	margin: 20px 0px 0px 0px;	
+
+	background-color:#e74c3c;
+}
+a:link {color:#a200ff;}
+a:visited {color:#e74c3c;}
+a:hover {color:#8ec127;}
