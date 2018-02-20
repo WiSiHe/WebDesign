@@ -1,0 +1,118 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+@font-face{
+	font-family:custom_font_1;
+	src:url("../fonts/Comfortaa-Light.ttf");	
+}
+
+body{
+	font-family:custom_font_1;
+	height:5150px;
+	background-image:url(../images/bop.png);
+}
+#Header{
+	
+	color:white;
+	font-size:5em;
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: black;
+	text-shadow: 0 0 px rgba(0, 0, 0, 1);	
+	
+	position:relative;
+	z-index:2;
+	top:350px;
+	margin: 0px auto 0px;
+	text-align:center;
+}
+#BackGround{
+	position:absolute;
+	width:100%;
+	height:800px;
+	z-index:0;
+	overflow:hidden;
+	border-bottom:#FFF solid 5px;
+	background-image:url(../images/wp1.jpg);
+	background-position:center;
+	background-height:100%;
+	background-width:100%;
+}
+
+#Row{
+	position:relative;
+	border-radius:6px;
+	background-color:#EADCDC;
+	width:1000px;
+	height:4130px;
+	top:800px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	z-index:1;
+	text-align:center;
+}
+#Row img{
+	position:relative;
+	max-width:1024px;
+	max-height:720px;
+	margin:0px auto 0px;
+}
+.Invisible{
+	height:10px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	-webkit-opacity:0;
+	opacity:0;
+	-moz-opacity:0;
+	-moz-transition:opacity 2.5s ease-in-out;
+	
+	transition:opacity 2.5s ease-in-out;
+}
+.Invisible img{
+	position:relative;
+	top:-580.5px;	
+}
+.Invisible:hover{
+	-webkit-opacity:1;
+	-moz-opacity:1;
+	opacity:1;
+	-moz-opacity:1;
+}
+.Visible{
+	height:10px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	-webkit-opacity:1;
+	opacity:1;
+	-moz-opacity:1;
+	-moz-transition:opacity 3s ease-in-out;
+	transition:opacity 3s ease-in-out;	
+}
+.TextBar{
+	background-color:rgba(000,000,000,0.4);
+	width:1000px;
+	height:50px;
+	font-size:1.7em;
+	position:relative;
+	top:-643px;
+	z-index:5;
+	padding-top:7px;
+	color:white;
+	Border-top:2px solid white;	
+}
+#Tip{
+	position:fixed;
+	z-index:20;
+	right:20px;
+	bottom:10px;
+	color:white;
+	font-size:0.4em;
+}
+.Red{
+	color:red;
+}
+
+
