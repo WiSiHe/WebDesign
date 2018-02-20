@@ -1,0 +1,31 @@
+.card{
+	border:2px solid white;
+	width:28%;
+	display: inline-block;
+	height: 40%;
+	padding: 10px;
+	overflow: hidden;
+	background-color:rgba(0,0,0,0.7);
+	color: white;
+}
+.card img{
+	width:100%;
+}
+#Card1{
+	margin-left:10px; 
+	
+}
+#Card1 p {
+	border-bottom:1px solid white;
+}
+#Card1 img{
+
+}
+#Card2{
+	margin: 10px;
+}
+#Card
+#Card3{
+	margin-right:10px;
+	float: right;
+}

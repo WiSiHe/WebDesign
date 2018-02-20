@@ -1,0 +1,75 @@
+
+/*******************************************/
+/*******************************************/
+/* CSS FOR SLIDESHOW (FOOD & DRINK) */
+/*******************************************/
+/*******************************************/
+
+.slideshow{
+    overflow:hidden;
+    width:60%;
+    height: 60%;
+	background-image:url('../images/op.jpg');
+	float: left;
+}
+/* Området er stort nok til å få plass til 5 bilder per nå */
+.bilder{
+    list-style:none;
+    position:relative;
+    width:300%;
+    overflow:hidden;
+    -moz-animation:carousel 30s infinite;
+    -webkit-animation:carousel 30s infinite;
+    animation:carousel 30s infinite;
+}
+
+.bilder > li{
+    position:relative;
+    float:left;
+    width:20%; 
+}
+
+.slideshow img{
+    display:block;
+    width:60%;
+    max-width:60%;
+}
+
+.slideshow h2{
+    font-size:1em;
+    padding:0.5em;
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    left:10px;
+    text-align:right;
+    color:#fff;
+    background-color:rgba(0,0,0,0.75);
+}
+
+@keyframes carousel{
+    0%    { left:0; }
+    11%   { left:0; }
+    12.5% { left:-60%; }
+    23.5% { left:-60%; }
+    25%   { left:-120%; }
+    36%   { left:-120%; }
+    37.5% { left:-180%; }
+    48.5% { left:-180%; }
+    50%   { left:-240%; }
+    61%   { left:-240%; }
+    62.5% { left:-180%; }
+    73.5% { left:-180%; }
+    75%   { left:-200%; }
+    86%   { left:-120%; }
+    87.5% { left:-120%; }
+    98.5% { left:-60%; }
+    100%  { left:0; }
+}
+
+/*******************************************/
+/*******************************************/
+/* END OF CSS FOR SLIDESHOW (FOOD & DRINK) */
+/*******************************************/
+/*******************************************/
+/*******************************************/

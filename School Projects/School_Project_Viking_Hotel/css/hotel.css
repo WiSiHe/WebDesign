@@ -1,0 +1,71 @@
+#historyCards{
+	position: relative;
+	float: left;
+	max-width:45%;
+	height: 100%;
+	border:1px solid black;
+	padding: 10px;
+}
+#staffCards{
+	float: right;
+	width:45%;
+	height: 100%;
+	border:1px solid black;
+	padding: 10px;
+}
+#staffCards img{
+	background-color: black;
+}
+.card{
+	margin:10px;
+	width: 95%;
+	height:13em;
+	border:1px solid black;
+	overflow: hidden;
+}
+.content h2{
+	
+	border:1px solid black;
+}
+.card img{
+	width: 100px;
+	height: auto;
+}
+
+a:link {color:#F33;}
+a:visited {color:#C3C;}
+a:hover {color:#FFF;}
+
+@media only screen and ( max-width: 1070px ) {
+	.content{
+		height: 150%;
+	}
+	#historyCards{
+		clear: both;
+		max-width:100%;
+		height: 50%;
+		border:1px solid black;
+		padding: 10px;
+		overflow: hidden;
+	}
+.card{
+	margin:10px;
+	width: 95%;
+	height:10em;
+	border:1px solid black;
+	overflow: hidden;
+}	
+
+	#staffCards{
+		clear:both;
+		float: none;
+		width:100%;
+		height: 50%;
+		border:1px solid red;
+		padding: 10px;
+	}
+	
+}
+
+
+

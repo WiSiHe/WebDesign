@@ -1,0 +1,35 @@
+.content{
+	height:100%;
+}
+.persona{
+	border:2px solid red;
+	height:28%;
+	color:white;
+	overflow: hidden;
+	padding:10px;
+	margin: 10px;
+	background-color:rgba(0,0,0,0.7);
+}
+.StaffPic{
+	float: right;
+	border:1px solid black;
+}
+.StaffPic img{
+	float: right;
+	width:175px;
+	height:240px;
+	border:1px solid black;
+}
+.staffText{
+	width:70%;
+	height:85%;
+	float: left;
+	border:1px solid white;
+	padding: 10px;
+}
+div
+{
+	-webkit-border-image:url(border.png) 30 30 round; /* Safari 5 */
+	-o-border-image:url(border.png) 30 30 round; /* Opera */
+	border-image:url(border.png) 30 30 round;
+}
