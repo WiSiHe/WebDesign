@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: rgb(230,230,230);
+	color: #555;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+.bx-wrapper{
+	max-width: 100%;
+	height: 100%;
+	overflow:hidden;
+	border:none;
+	box-shadow: none;
+
+	-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+	
+}
+.slider{
+	width: 100%;
+	height: 100%;
+	
+	z-index: 10;
+}
+.slider img{
+	height: auto;
+	width: 100%;
+	margin:auto;
+	display: table;
+	top:0;
+	background-size: cover;	
+
+}
+.slider h1{
+	font-size: 500%;
+	font-weight: 800;
+	float: left;
+	color: white;
+	line-height: 900px;
+	margin-left: 11.5%;
+}
+.fa{
+	font-size: 50px;
+	z-index: 20;
+	color: white;
+	position: relative;
+	top: -120px;
+}
+
+
+#slide1{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, rgba(255, 54, 235, 0.7) 0%, rgba(118, 62, 189, 0.7) 100%), url(1.jpg), #FFFFFF;
+}
+#slide2{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, rgba(255, 54, 235, 0.7) 0%, rgba(118, 62, 189, 0.7) 100%), url(2.jpg), #FFFFFF;
+}
+#slide3{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, rgba(255, 54, 235, 0.7) 0%, rgba(118, 62, 189, 0.7) 100%), url(3.jpg), #FFFFFF;
+}
+#slide4{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, rgba(255, 54, 235, 0.7) 0%, rgba(118, 62, 189, 0.7) 100%), url(6.jpg), #FFFFFF;
+}
+#slide5{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, rgba(255, 54, 235, 0.7) 0%, rgba(118, 62, 189, 0.7) 100%), url(5.jpg), #FFFFFF;
+}
+
+.main-content{
+	max-width: 80%;
+	margin: 0px auto;
+	z-index: 10;
+
+
+
+}
+.one-third{
+	width: 29%;
+	float: left;
+	margin: 2%;
+	
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
+
+
+	-webkit-box-shadow: 0px 10px 61px -10px rgba(41,41,41,0.38);
+	-moz-box-shadow: 0px 10px 61px -10px rgba(41,41,41,0.38);
+	box-shadow: 0px 10px 61px -10px rgba(41,41,41,0.38);
+}
+.one-third h3{
+	text-transform: uppercase;
+	font-size: 100%;
+	margin: 5%;
+	text-align: left;
+}
+.one-third p{
+	margin: 5%;
+	text-align: left;
+}
+.one-third img{
+	min-width: 100%;
+	height: 280px;
+}
+.clearfix{
+	clear: both;
+	padding: 2%;
+}
+header{
+	background:rgba(69, 69, 69, 0);
+	height: 86px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	margin: 0 auto;
+	letter-spacing: 2px;
+}
+#header-inner{
+	max-width:1200px;
+	margin: 0 auto;
+
+}
+#logo{
+	position: absolute;
+	left: 0px;
+	width: 150px;
+	height: 50px;
+	margin: 0px 0px 0px 11.5%;
+}
+#logo img{
+	width: 100%;
+}
+#header-inner{
+	width: 80%;
+	margin: 0px auto;
+}
+nav{
+
+	position: absolute;
+	right: 0px;
+	padding: 73px 11.5% 0px 0px;
+}
+#menu-icon{
+	background-image: url(icon.png);
+	width: 40px;
+	height: 34px;
+	display: hidden;
+}
+ul{
+	list-style: none;
+}
+nav ul li{
+	font-family: sans-serif;
+	display: inline-block;
+	padding: 15px;
+	float: left;
+	font-size: 100%;
+}
+nav ul li a{
+	color:#f0f0f0;
+	text-decoration: none;
+	font-weight: 700;
+}
+a:hover, .current{
+	text-decoration: underline;
+}
+a:hover{
+	color:rgba(132,192,234,0.9);
+}
+.current{
+	text-decoration: underline;
+}
+h1{
+	font-size: 300%;
+	font-weight: 800;
+}
+.readButton{
+	width: 217px;
+	height: 58px;
+	margin: 0px auto;
+	border: 4px solid #000000;
+	box-sizing: border-box;
+	position: relative;
+	top: 30px;
+	background-color: rgba(255,255,255,1);
+}
+.readButton h3{
+	line-height: 50px;
+	text-align: center;
+	margin: auto;
+	color:rgba(0,0,0,1);
+}
+.music{	
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: url(1.jpg), url(3.jpg), #292929;
+	background-blend-mode: overlay, overlay, normal;
+}
