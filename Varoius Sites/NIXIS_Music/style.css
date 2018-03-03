@@ -86,6 +86,7 @@ body{
 	max-width: 80%;
 	margin: 0px auto;
 	z-index: 10;
+	text-align: left;
 
 
 
@@ -145,13 +146,13 @@ header{
 }
 #logo img{
 	width: 100%;
+	text-shadow: 0px 0px 14px rgba(150, 150, 150, 0.9);
 }
 #header-inner{
 	width: 80%;
 	margin: 0px auto;
 }
 nav{
-
 	position: absolute;
 	right: 0px;
 	padding: 73px 11.5% 0px 0px;
@@ -171,6 +172,7 @@ nav ul li{
 	padding: 15px;
 	float: left;
 	font-size: 100%;
+	text-shadow: 0px 0px 14px rgba(150, 150, 150, 0.9);
 }
 nav ul li a{
 	color:#f0f0f0;
@@ -194,13 +196,30 @@ h1{
 	width: 217px;
 	height: 58px;
 	margin: 0px auto;
-	border: 4px solid #000000;
-	box-sizing: border-box;
+	/*border: 4px solid #000000;
+	box-sizing: border-box; */
 	position: relative;
 	top: 30px;
-	background-color: rgba(255,255,255,1);
+	background-color: rgba(230,230,230,1);
 }
 .readButton h3{
+	line-height: 50px;
+	text-align: center;
+	margin: auto;
+	color:rgba(0,0,0,1);
+}
+.readButton2{
+	width: 217px;
+	height: 58px;
+	margin: 0px auto;
+	/*border: 4px solid #000000;
+	box-sizing: border-box; */
+	position: relative;
+	top: 180px;
+	background-color: rgba(230,230,230,1);
+
+}
+.readButton2 h3{
 	line-height: 50px;
 	text-align: center;
 	margin: auto;
@@ -212,4 +231,9 @@ h1{
 	margin: 0 auto;
 	background: url(1.jpg), url(3.jpg), #292929;
 	background-blend-mode: overlay, overlay, normal;
+}
+footer{
+	width: 100%;
+	min-height: 200px;
+	background-color: rgb(10,10,10);
 }
