@@ -10,4 +10,4 @@ School projects, contains a few things I did while in school.
 
 Github-profile contains, a small Angular module for github profiles.
 
-<img src="https://cdna.artstation.com/p/assets/images/images/009/589/556/large/henrik-sissener-spaceport.jpg?1519826290" width="350" title="hover text">
+<img src="https://cdna.artstation.com/p/assets/images/images/009/589/556/large/henrik-sissener-spaceport.jpg?1519826290" title="hover text" style="margins:0px auto;">
